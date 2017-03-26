@@ -1,0 +1,19 @@
+CASOS DE PRUEBA
+
+- Partición de equivalencia.
+ • Casos invalidos: Balances menores a 1:
+	Se probó con los valores 0 y -15, los dos dieron como respuesta que el balance
+	no era un balance valido.
+ • Casos validos: Balances mayores a 0:
+   En este caso los valores fueron 1 y 15, dando como respuesta sus respectivos
+   valores de rendimiento.
+
+- Análisis de valores límite.
+  • Caso <1:
+	Se regresa una cadena de texto indicando que el balance no es valido.
+  • Caso <1000:
+	Se regresa el rendimiento indicado del 1%.
+  • Caso 1000 a 10000:
+	Se regresa el rendimiento igual al 3% del valor.
+  • Caso >10000:
+	Devuelve el rendimiento del 5% del valor dado.
